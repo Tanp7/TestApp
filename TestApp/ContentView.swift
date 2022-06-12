@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import System
+
 
 struct ContentView: View {
     var body: some View {
@@ -14,8 +16,16 @@ struct ContentView: View {
     }
 }
 
+struct ll: View {
+	var body: some View {
+		Text("Code")
+			.padding()
+	}
+}
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+		ll()
     }
 }
